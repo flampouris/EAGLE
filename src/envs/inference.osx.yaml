@@ -1,0 +1,12 @@
+channels:
+  - nodefaults
+  - conda-forge
+  - ufs-community
+dependencies:
+  - numpy 2.2.6.*
+  - python 3.12
+  - uwtools 2.14.*
+  - pip:
+      - anemoi-inference==0.10.*
+      - anemoi-models==0.13.*
+      - eagle-tools
